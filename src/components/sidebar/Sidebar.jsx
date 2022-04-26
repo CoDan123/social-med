@@ -2,7 +2,7 @@ import './sidebar.css'
 
 export default function Sidebar() {
     return(
-        <div>
+        <div className='side-bar'>
             sidebar
         </div>
     )
