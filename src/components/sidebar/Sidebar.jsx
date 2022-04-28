@@ -16,39 +16,47 @@ export default function Sidebar() {
                 <ul className="sidebar-list">
                     <li className="sidebar-list-item">
                         <RssFeedIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Feed</span>
+                        <span className="sidebar-list-item-text">Feed</span>
                     </li>
                     <li className="sidebar-list-item">
                         <ChatIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Chat</span>
+                        <span className="sidebar-list-item-text">Chat</span>
                     </li>
                     <li className="sidebar-list-item">
                         <PlayCircleFilledWhiteIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Videos</span>
+                        <span className="sidebar-list-item-text">Videos</span>
                     </li>
                     <li className="sidebar-list-item">
                         <GroupIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Groups</span>
+                        <span className="sidebar-list-item-text">Groups</span>
                     </li>
                     <li className="sidebar-list-item">
                         <BookmarkIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Bookmarks</span>
+                        <span className="sidebar-list-item-text">Bookmarks</span>
                     </li>
                     <li className="sidebar-list-item">
                         <HelpOutlineIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Help</span>
+                        <span className="sidebar-list-item-text">Help</span>
                     </li>
                     <li className="sidebar-list-item">
                         <WorkOutlineIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Jobs</span>
+                        <span className="sidebar-list-item-text">Jobs</span>
                     </li>
                     <li className="sidebar-list-item">
                         <EventIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Events</span>
+                        <span className="sidebar-list-item-text">Events</span>
                     </li>
                     <li className="sidebar-list-item">
                         <SchoolIcon className='sidebar-icon'/>
-                        <span className="sidebar-list-item">Courses</span>
+                        <span className="sidebar-list-item-text">Courses</span>
+                    </li>
+                </ul>
+                <button className="sidebar-button">Show more</button>
+                <hr className='sidebar-hr'/>
+                <ul className="sidebar-friend-list">
+                    <li className="sidebar-friend">
+                        <img className='sidebar-friend-img' src="" alt="" />
+                        <span className="sidebar-friend-name">Jane Doe</span>
                     </li>
                 </ul>
             </div>

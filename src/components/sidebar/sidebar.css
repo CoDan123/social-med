@@ -5,5 +5,44 @@
 
 .sidebar-wrapper {
     padding: 20px;
-    background-color: yellowgreen;
+}
+
+.sidebar-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-icon {
+    margin-right: 15px;
+}
+
+.sidebar-button {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.sidebar-hr {
+    margin: 20px 0;
+}
+
+.sidebar-friend-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-friend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
 }
