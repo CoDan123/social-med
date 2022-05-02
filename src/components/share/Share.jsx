@@ -1,4 +1,5 @@
 import "./share.css";
+import PermMediaIcon from '@mui/icons-material/PermMedia';
 
 export default function Share() {
     return (
@@ -12,7 +13,8 @@ export default function Share() {
                 <div className="share-bottom">
                     <div className="share-options">
                         <div className="share-option">
-                            <span>Photo/Video</span>
+                            <PermMediaIcon className="share-icon"/>
+                            <span className="share-option-text">Photo or Video</span>
                         </div>
                     </div>
                 </div>
