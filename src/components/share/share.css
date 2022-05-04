@@ -5,3 +5,12 @@
     -webkit-box-shadow: 5px 5px 15px 1px #575757; 
     box-shadow: 5px 5px 15px 1px #4e4e4e;
 }
+
+.share-wrapper {
+    padding: 20px;
+}
+
+.share-profile-image {
+    width: 50px;
+    height: 50px;
+}
