@@ -23,3 +23,26 @@
     margin-right: 10px;
 
 }
+
+.share-input {
+    border: none;
+    width: 80%;
+}
+
+.share-input:focus {
+    outline: none;
+}
+
+.share-hr {
+    margin: 20px;
+}
+
+.share-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.share-options {
+    display: flex;
+}
