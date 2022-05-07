@@ -45,4 +45,18 @@
 
 .share-options {
     display: flex;
+    margin-left: 20px;
 }
+
+.share-option {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.share-icon {
+    font-size: 18px;
+    margin-right: 3px;
+}
+
