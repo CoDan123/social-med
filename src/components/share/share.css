@@ -2,8 +2,8 @@
     width: 100%;
     height: 170px;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 5px 15px 1px #575757; 
-    box-shadow: 5px 5px 15px 1px #4e4e4e;
+    -webkit-box-shadow: 5px 5px 15px 1px #bebebe; 
+    box-shadow: 5px 5px 15px 1px #bebebe;
 }
 
 .share-wrapper {
@@ -63,5 +63,16 @@
 .share-option-text {
     font-size: 14px;
     font-weight: 500; 
+}
+
+.share-button {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
 }
 
