@@ -1,4 +1,5 @@
 import "./post.css";
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 export default function Post() {
     return (
@@ -11,7 +12,7 @@ export default function Post() {
                         <span className="post-date">10 mins ago</span>
                     </div>
                     <div className="post-top-right">
-
+                        <MoreVertIcon />
                     </div>
                 </div>
                 <div className="post-center"></div>
