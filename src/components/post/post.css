@@ -20,3 +20,21 @@
     display: flex;
     align-items: center;
 }
+
+.post-profile-img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-username {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.post-date {
+    font-size: 12px;
+}
+
