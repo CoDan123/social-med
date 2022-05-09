@@ -21,7 +21,11 @@ export default function Post() {
             
                 </div>
                 <div className="post-bottom">
-                    <div className="post-bottom-left"></div>
+                    <div className="post-bottom-left">
+                        <img className="like-icon" src="" alt="" />
+                        <img className="like-icon" src="" alt="" />
+                        <span className="like-counter"></span>
+                    </div>
                     <div className="post-bottom-right"></div>
                 </div>
             </div>
