@@ -8,6 +8,7 @@ export default function Rightbar() {
                     <img className="birthday-img" src="" alt="" />
                     <span className="birthday-text">John and 7 other friends have a birthday today</span>
                 </div>
+                <img className="rightbar-ad" src="" alt="" />
             </div>
         </div>
     )
