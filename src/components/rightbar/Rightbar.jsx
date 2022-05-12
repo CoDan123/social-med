@@ -16,6 +16,7 @@ export default function Rightbar() {
                             <img className="rightbar-profile-img" src="" alt="" />
                             <span className="rightbar-online"></span>
                         </div>
+                        <span className="rightbar-username">John D.</span>
                     </li>
                 </ul>
             </div>
