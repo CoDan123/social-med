@@ -1,5 +1,6 @@
 import "./post.css";
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Users } from "../../someData";
 
 export default function Post({post}) {
     console.log(post)
@@ -18,7 +19,7 @@ export default function Post({post}) {
                 </div>
                 <div className="post-center">
                     <span className="post-text">{post?.desc}</span>
-                    <img className="post-img" src="" alt="" />
+                    <img className="post-img" src={post.photo} alt="" />
             
                 </div>
                 <div className="post-bottom">
