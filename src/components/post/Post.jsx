@@ -10,14 +10,14 @@ export default function Post({post}) {
                     <div className="post-top-left">
                         <img className="post-profile-img" src="" alt="" />
                         <span className="post-username">Username here</span>
-                        <span className="post-date">10 mins ago</span>
+                        <span className="post-date">{post.date}</span>
                     </div>
                     <div className="post-top-right">
                         <MoreVertIcon />
                     </div>
                 </div>
                 <div className="post-center">
-                    <span className="post-text">Hello! Here is a post!</span>
+                    <span className="post-text">{post?.desc}</span>
                     <img className="post-img" src="" alt="" />
             
                 </div>
@@ -25,10 +25,10 @@ export default function Post({post}) {
                     <div className="post-bottom-left">
                         <img className="like-icon" src="" alt="" />
                         <img className="like-icon" src="" alt="" />
-                        <span className="post-like-counter">32 people like this</span>
+                        <span className="post-like-counter">{post.like} people like this</span>
                     </div>
                     <div className="post-bottom-right">
-                        <span className="post-comment-text">9 comments</span>
+                        <span className="post-comment-text">{post.comment} comments</span>
                     </div>
                 </div>
             </div>
