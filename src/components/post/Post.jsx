@@ -9,8 +9,10 @@ export default function Post({post}) {
             <div className="post-wrapper">
                 <div className="post-top">
                     <div className="post-top-left">
-                        <img className="post-profile-img" src="" alt="" />
-                        <span className="post-username">{Users.filter((u) => u.id === post.userId)[0].username}</span>
+                        <img className="post-profile-img" src={Users.filter((u) => u.id === post.userId)[0].profilePicture} alt="" />
+                        <span className="post-username">
+                            {Users.filter((u) => u.id === post.userId)[0].username}
+                        </span>
                         <span className="post-date">{post.date}</span>
                     </div>
                     <div className="post-top-right">
