@@ -1,4 +1,5 @@
 import "./rightbar.css";
+import { Users } from "../../someData";
 
 export default function Rightbar() {
     return(
@@ -11,13 +12,7 @@ export default function Rightbar() {
                 <img className="rightbar-ad" src="" alt="" />
                 <h4 className="rightbar-title">Online Friends</h4>
                 <ul className="rightbar-friend-list">
-                    <li className="rightbar-friend">
-                        <div className="rightbar-profile-img-container">
-                            <img className="rightbar-profile-img" src="" alt="" />
-                            <span className="rightbar-online"></span>
-                        </div>
-                        <span className="rightbar-username">John D.</span>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
