@@ -1,6 +1,6 @@
 import "./online.css";
 
-export default function Online(){
+export default function Online({user}){
     return (
         <li className="rightbar-friend">
             <div className="rightbar-profile-img-container">
