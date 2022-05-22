@@ -11,8 +11,10 @@ import SchoolIcon from '@mui/icons-material/School';
 import { Users } from "../../someData";
 import userEvent from '@testing-library/user-event';
 
-export default function Sidebar() {
-    return(
+export default function Sidebar({ post }) {
+
+
+    return (
         <div className='sidebar'>
             <div className="sidebar-wrapper">
                 <ul className="sidebar-list">
@@ -57,7 +59,7 @@ export default function Sidebar() {
                 <hr className='sidebar-hr'/>
                 <ul className="sidebar-friend-list">
                     {Users.map(u=>(
-                        <CloseFriend user={u}/>
+                        <CloseFriend key={u.id} user={u}/>
                     ))}
                     
                 </ul>

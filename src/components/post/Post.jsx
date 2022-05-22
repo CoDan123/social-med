@@ -3,7 +3,9 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Users } from "../../someData";
 
 export default function Post({post}) {
-    console.log(post)
+
+    const [like, setLike] = useState(post.like);
+    
     return (
         <div className="post">
             <div className="post-wrapper">
@@ -28,7 +30,7 @@ export default function Post({post}) {
                     <div className="post-bottom-left">
                         <img className="like-icon" src="" alt="" />
                         <img className="like-icon" src="" alt="" />
-                        <span className="post-like-counter">{post.like} people like this</span>
+                        <span className="post-like-counter">{like} people like this</span>
                     </div>
                     <div className="post-bottom-right">
                         <span className="post-comment-text">{post.comment} comments</span>
