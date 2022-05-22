@@ -1,9 +1,9 @@
 import "./closeFriend.css";
 
-export default function CloseFriend(){
+export default function CloseFriend({user}){
     return (
         <li className="sidebar-friend">
-            <img className='sidebar-friend-img' src="" alt="" />
+            <img className='sidebar-friend-img' src={user.profilePicture} alt="" />
             <span className="sidebar-friend-name">Jane Doe</span>
         </li>
     )
