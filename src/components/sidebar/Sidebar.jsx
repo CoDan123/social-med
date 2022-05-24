@@ -10,6 +10,7 @@ import EventIcon from '@mui/icons-material/Event';
 import SchoolIcon from '@mui/icons-material/School';
 import { Users } from "../../someData";
 import userEvent from '@testing-library/user-event';
+import CloseFriend from "../closeFriend/CloseFriend";
 
 export default function Sidebar({ post }) {
 

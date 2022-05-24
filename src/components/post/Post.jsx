@@ -1,3 +1,4 @@
+import { useState} from "react";
 import "./post.css";
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Users } from "../../someData";
@@ -9,6 +10,7 @@ export default function Post({post}) {
 
     const likeHandler = () => {
         setLike(isLiked ? like-1 : like+1);
+        setIsLiked(!isLiked);
     }
     
     return (
