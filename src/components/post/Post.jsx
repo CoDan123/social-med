@@ -5,6 +5,7 @@ import { Users } from "../../someData";
 export default function Post({post}) {
 
     const [like, setLike] = useState(post.like);
+    const [isLiked, setIsLiked] = useState(false);
     
     return (
         <div className="post">
