@@ -8,10 +8,15 @@ export default function Profile() {
     return(
         <>
             <Topbar />
-            <div className="home-container">
+            <div className="profile">
                 <Sidebar />
-                <Feed />
-                <Rightbar />
+                <div className="profile-right">
+                    <div className="profile-right-top">dfgsfg</div>
+                    <div className="profile-right-bottom">
+                        <Feed />
+                        <Rightbar />
+                    </div>
+                </div> 
             </div>
         </> 
     )
