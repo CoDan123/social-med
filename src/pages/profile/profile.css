@@ -11,6 +11,12 @@
     position: relative;
 }
 
+.profile-cover-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
 .profile-right-bottom {
     display: flex;
 }
