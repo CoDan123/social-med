@@ -18,7 +18,7 @@ export default function Profile() {
                         </div>
                         <div className="profile-info">
                             <h4 className="profile-info-name">Profile-info</h4>
-                            <span className="profile-info-desc">Profile-info</span>
+                            <span className="profile-info-desc">Profile-info-desc</span>
                         </div>
                     </div>
                     <div className="profile-right-bottom">

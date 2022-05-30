@@ -6,6 +6,11 @@
     flex: 9;
 }
 
+.profile-cover {
+    height: 320;
+    position: relative;
+}
+
 .profile-right-bottom {
     display: flex;
 }
