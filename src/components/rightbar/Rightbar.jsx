@@ -2,10 +2,11 @@ import "./rightbar.css";
 import { Users } from "../../someData";
 import Online from "../online/Online"
 
-export default function Rightbar() {
-    return(
-        <div className="right-bar">
-            <div className="right-bar-wrapper">
+export default function Rightbar({profile}) {
+
+    const HomeRightBar = () => {
+        return (
+            <>
                 <div className="birthday-container">
                     <img className="birthday-img" src="" alt="" />
                     <span className="birthday-text">John and 7 other friends have a birthday today</span>
@@ -17,6 +18,18 @@ export default function Rightbar() {
                         <Online key={u.id} user={u} />
                     ))}
                 </ul>
+            </>
+        )
+    }
+
+    const ProfileRightBar = () => {
+        return (<h1>ProfileRightBar</h1>)
+    }
+
+    return(
+        <div className="right-bar">
+            <div className="right-bar-wrapper">
+                
             </div>
         </div>
     )
