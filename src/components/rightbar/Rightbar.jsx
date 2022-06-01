@@ -47,27 +47,23 @@ export default function Rightbar({profile}) {
                     <span className="rightbar-following-name">Follower name</span>
                 </div>
                 <div className="rightbar-following">
-                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <img src="assets/person/2.jpeg" alt="" className="rightbar-following-img" />
                     <span className="rightbar-following-name">Follower name</span>
                 </div>
                 <div className="rightbar-following">
-                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <img src="assets/person/3.jpeg" alt="" className="rightbar-following-img" />
                     <span className="rightbar-following-name">Follower name</span>
                 </div>
                 <div className="rightbar-following">
-                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <img src="assets/person/4.jpeg" alt="" className="rightbar-following-img" />
                     <span className="rightbar-following-name">Follower name</span>
                 </div>
                 <div className="rightbar-following">
-                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <img src="assets/person/5.jpeg" alt="" className="rightbar-following-img" />
                     <span className="rightbar-following-name">Follower name</span>
                 </div>
                 <div className="rightbar-following">
-                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
-                    <span className="rightbar-following-name">Follower name</span>
-                </div>
-                <div className="rightbar-following">
-                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <img src="assets/person/6.jpeg" alt="" className="rightbar-following-img" />
                     <span className="rightbar-following-name">Follower name</span>
                 </div>
             </div>

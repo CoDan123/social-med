@@ -38,3 +38,9 @@
     list-style: none;
 }
 
+.rightbar-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
