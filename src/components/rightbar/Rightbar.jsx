@@ -43,7 +43,32 @@ export default function Rightbar({profile}) {
             <h4 className="rightbar-title">User Information</h4>
             <div className="rightbar-followings">
                 <div className="rightbar-following">
-                    <img src="" alt="" className="rightbar-following-img" />
+                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <span className="rightbar-following-name">Follower name</span>
+                </div>
+                <div className="rightbar-following">
+                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <span className="rightbar-following-name">Follower name</span>
+                </div>
+                <div className="rightbar-following">
+                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <span className="rightbar-following-name">Follower name</span>
+                </div>
+                <div className="rightbar-following">
+                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <span className="rightbar-following-name">Follower name</span>
+                </div>
+                <div className="rightbar-following">
+                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <span className="rightbar-following-name">Follower name</span>
+                </div>
+                <div className="rightbar-following">
+                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <span className="rightbar-following-name">Follower name</span>
+                </div>
+                <div className="rightbar-following">
+                    <img src="assets/person/1.jpeg" alt="" className="rightbar-following-img" />
+                    <span className="rightbar-following-name">Follower name</span>
                 </div>
             </div>
             </>
