@@ -44,6 +44,24 @@
     margin-bottom: 10px;
 }
 
+.rightbar-info {
+    margin-bottom: 30px;
+}
+
+.rightbar-info-item {
+    margin-bottom: 10px;
+}
+
+.rightbar-info-key {
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rightbar-info-value {
+    font-weight: 300;
+}
+
 .rightbar-following-img {
     width: 100px;
     height: 100px;
