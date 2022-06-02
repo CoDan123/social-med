@@ -10,7 +10,15 @@ export default function Login() {
                         Connect with friends and the world around you with Social-Med
                     </span>
                 </div>
-                <div className="login-right"></div>
+                <div className="login-right">
+                    <div className="login-box">
+                        <input placeholder="Email" className="login-input" />
+                        <input placeholder="Password" className="login-input" />
+                        <button className="login-button">Log In</button>
+                        <span className="login-forgot">Forgot Password?</span>
+                        <button className="login-register-button">Create a new account</button>
+                    </div>
+                </div>
             </div>
         </div>
     )
