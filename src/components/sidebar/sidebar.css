@@ -31,7 +31,7 @@
 .sidebar-list-item {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .sidebar-icon {
@@ -39,7 +39,7 @@
 }
 
 .sidebar-button {
-    width: 155px;
+    width: 150px;
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -48,7 +48,7 @@
 }
 
 .sidebar-hr {
-    margin: 22px 0;
+    margin: 20px 0;
 }
 
 .sidebar-friend-list {
